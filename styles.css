@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+    
+
+.container{
+    background-color: black;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 2rem;
+}
+
+.separador{
+    margin-top: 1rem;
+    color: white;
+    width: 90%;
+}
+
+.fotoperfil{
+    color: white;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    width: 100%
+}
+
+.fotoperfil img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+.fotoperfil div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conocimientos{
+    background-color: rgb(54, 54, 54);
+    border-radius: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.lenguajes{
+    list-style: none;
+    padding: 1rem;
+}
+
+.lenguajes h4{
+    color: wheat;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.lenguajes li{
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+    color: wheat;
+}
+
+.lenguajes li img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 10%;
+}
+
+
+
+.habilidadesblandas{
+    list-style: none;
+    padding: 1rem;
+}
+
+.habilidadesblandas h4{
+    color: wheat;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.habilidadesblandas li{
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+    color: wheat;
+}
+
+.habilidadesblandas li img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 10%;
+}
+
+
+.infopersonlas{
+    background-color: rgb(54, 54, 54);
+    border-radius: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+
+.datosusuario{
+    list-style: none;
+    padding: 1rem;
+}
+
+.datosusuario h4{
+    color: wheat;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.datosusuario li{
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+    color: wheat;
+}
+
+
+
+
+.datoscontacto{
+    list-style: none;
+    padding: 1rem;
+}
+
+.datoscontacto h4{
+    color: wheat;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.datoscontacto li{
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+    color: wheat;
+}
